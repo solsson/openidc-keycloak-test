@@ -1,7 +1,7 @@
 # debian:buster-slim@sha256:6571c4636d0bb4e4eb0f14f557f8ba9b104fd194dc19241a564d3c3661ea5c30
 FROM httpd:2.4.41@sha256:98caed3e3a90ed9db8d25dcbb98eebe0ce56358a9dbbc940d7eb66a8e2b88252
 
-ENV OPENIDC_VERSION 2.4.0
+ENV OPENIDC_VERSION 2.4.0.2
 ENV OPENIDC_VERSION_DEB_URL https://github.com/zmartzone/mod_auth_openidc/releases/download/v${OPENIDC_VERSION}/libapache2-mod-auth-openidc_${OPENIDC_VERSION}-1.buster+1_amd64.deb
 ENV OPENIDC_VERSION_DEB_SHA1 3a337eed5c902b18249d55a18a970720159edeab
 
